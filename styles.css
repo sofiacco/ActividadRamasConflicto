@@ -142,20 +142,6 @@ header .logo {
     margin: 0 auto 30px;
 }
 
-.hero-cta {
-    display: inline-block;
-    padding: 12px 28px;
-    background-color: #2d6cdf;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 6px;
-    font-weight: bold;
-}
-
-.hero-cta:hover {
-    background-color: #1f50b0;
-}
-
 /* Estilos del footer */
 footer {
     background-color: #222;

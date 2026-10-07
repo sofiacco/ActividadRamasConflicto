@@ -1,33 +1,65 @@
+/* Tema: colores principales */
+:root {
+    --color-primario: #6c3ce0;
+    --color-secundario: #ff7a59;
+    --color-texto: #2b2b3c;
+    --color-fondo: #f4f1fb;
+    --color-blanco: #ffffff;
+}
+
 /* Estilos generales del cuerpo */
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    color: #333;
-    background-color: #f5f5f5;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    line-height: 1.7;
+    color: var(--color-texto);
+    background: linear-gradient(180deg, var(--color-fondo) 0%, var(--color-blanco) 100%);
 }
 
 /* Estilos para títulos */
 h1,
 h2 {
     margin: 0 0 10px;
-    color: #222;
+    color: var(--color-primario);
+    font-family: Georgia, "Times New Roman", serif;
+    letter-spacing: 0.5px;
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 2.2rem;
 }
 
 h2 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 }
 
 /* Estilos básicos para secciones */
 section {
-    padding: 40px 20px;
+    padding: 60px 24px;
     margin: 0 auto;
-    max-width: 900px;
+    max-width: 1000px;
+}
+
+/* Tema: estilo de botones */
+.hero-cta,
+button {
+    display: inline-block;
+    padding: 14px 32px;
+    background-color: var(--color-secundario);
+    color: var(--color-blanco);
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.hero-cta:hover,
+button:hover {
+    background-color: var(--color-primario);
 }
 
 /* Estilos del encabezado */

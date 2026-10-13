@@ -8,29 +8,56 @@
 </head>
 <body>
     <header>
-        <h1>Nombre del Proyecto</h1>
-        <nav>
-            <a href="#inicio">Inicio</a>
-            <a href="#beneficios">Beneficios</a>
-            <a href="#contacto">Contacto</a>
+        <h1 class="logo">TaskFlow</h1>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#beneficios">Beneficios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
         </nav>
     </header>
 
     <main>
-        <section id="inicio">
-            <h2>Título principal</h2>
-            <p>Descripción breve del producto o proyecto.</p>
-            <a href="#beneficios">Ver más</a>
+        <section id="inicio" class="hero">
+            <h2>Organiza tu equipo y recupera tu tiempo libre</h2>
+            <p>Una solución sencilla y rápida para organizar tu trabajo, ahorrar tiempo y lograr más cada día.</p>
+            <a class="hero-cta" href="#contacto">Contáctanos</a>
         </section>
 
         <section id="beneficios">
             <h2>Beneficios</h2>
-            <p>Aquí se mostrarán los beneficios.</p>
+            <p>Descubre por qué TaskFlow facilita tu día a día.</p>
+            <div class="benefits-grid">
+                <article class="benefit-card">
+                    <h3>Organización simple</h3>
+                    <p>Agrupa tus tareas en listas y prioridades en segundos.</p>
+                </article>
+                <article class="benefit-card">
+                    <h3>Trabajo en equipo</h3>
+                    <p>Comparte proyectos y asigna responsables fácilmente.</p>
+                </article>
+                <article class="benefit-card">
+                    <h3>Recordatorios inteligentes</h3>
+                    <p>Recibe avisos antes de cada fecha límite.</p>
+                </article>
+            </div>
         </section>
     </main>
 
     <footer id="contacto">
-        <p>Pie de página</p>
+        <div class="footer-contact">
+            <h3>Contacto</h3>
+            <p>Correo: contacto@ejemplo.com</p>
+            <p>Teléfono: +52 33 1234 5678</p>
+            <p>Dirección: Av. Ficticia 123, Guadalajara, Jalisco</p>
+        </div>
+        <div class="footer-social">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+        </div>
+        <p class="footer-rights">&copy; 2026 TaskFlow. Todos los derechos reservados.</p>
     </footer>
 </body>
 </html>
